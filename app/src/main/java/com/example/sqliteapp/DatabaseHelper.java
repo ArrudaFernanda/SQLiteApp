@@ -20,7 +20,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
      */
     public DatabaseHelper(Context context) { // Quando este construtor for chamado o banco de dados será criado. Sendo este método equivalente ao comando 'create database'.
         super(context, DATABASE_NAME, null, 1);
-      //  SQLiteDatabase db = this.getWritableDatabase(); // Irá ficar aqui esta linha, apenas como demonstração de que ela pode ser usada aqui.
+      
     }
 
     @Override
